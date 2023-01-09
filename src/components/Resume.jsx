@@ -3,7 +3,7 @@ import { FaUserGraduate } from 'react-icons/fa'
 
 const Resume = () => {
   return (
-    <div className='resume bg-white flex flex-col p-5  gap-6'>
+    <div className='resume bg-white flex flex-col p-2 md:p-5  md:gap-6'>
 
       <p className='font-[700] border-b-4 w-fit border-b-mainblue mb-8 text-lg  '>Resume</p>
 
@@ -50,12 +50,11 @@ Bootstrap.<br />
               <p className='font-[500] text-gray-700 '>Avril 2017 - May-2017</p>
               <p className='font-[400] text-gray-500'>
 
-              • Analysis of customerrequests<br />
-• Design flyers, tarpaulins, Logos, and
+              • Analysis of customer requests<br />
+• Design flyers, Logos, and
 business cards.<br />
-• Createmockup.<br />
-• Creating graphic elements (photos, logos,
-icons).
+• Create mockup.<br />
+• Creating graphic elements (photos, logos).
                 </p>
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> REANAULT NISSAN</span> - ACADEMIC INTERNSHIP </p>
@@ -84,7 +83,7 @@ icons).
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> BACHELOR'S DEGREE </span> - Technical School Errachidia</p>
               <p className='font-[500] text-gray-700 '>Sep 2012 - Juin 2015</p>
-              <p className='font-[400] text-gray-500'>Baccalaureat in MECHANICAL SCIENCES AND TECHNIQUES
+              <p className='font-[400] text-gray-500'>BACHELOR'S DEGREE in MECHANICAL SCIENCES AND TECHNIQUES
  </p>
             </li>
           </ul>

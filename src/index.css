@@ -125,3 +125,20 @@ border-left:2px solid gray;
 
 
 
+@media (max-width: 600px){
+    .stats ul li::before {
+        content:"";
+        width: 10px ;
+        height: 10px ;
+        z-index: 1000;
+        background-color: white;
+        border-radius: 50%;
+        border: 2px solid rgb(62, 62, 165);
+        position: absolute;
+        display: block;
+        margin-top: 5px;
+
+        margin-left:-22px ;
+
+        }
+}

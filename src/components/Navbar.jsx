@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className='bg-white flex justify-between items-center  relative mt-5 md:mt-0'>
             <div className="left">
                 <ul className=' items-center  flex space-x-5 font-semibold uppercase '>
-                    <li onClick={handlePath}  className=' text-xl bg-mainblue px-4 py-4 cursor-pointer text-white rounded-l-lg '> <AiFillHome/> </li>
+                    <li onClick={handlePath}  className=' text-xl bg-mainblue px-6 md:px-4 py-6 md:py-4 cursor-pointer text-white rounded-l-lg '> <AiFillHome/> </li>
                     <li onClick={handleClick}  className='hidden md:block hover:text-mainblue cursor-pointer'>Resume</li>
                     <li  onClick={handleClick} className='hidden md:block hover:text-mainblue cursor-pointer'>Portfolio</li>
                     <li onClick={handleClick}  className='hidden md:block hover:text-mainblue cursor-pointer'>Contact</li>
