@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='p-5 bg-mainblue mt-5 flex justify-between text-white font-[600] rounded-md'>
         <p>Oussama TAALI</p>
-        <p> All rights reserved {date}</p>
+        <p>{date} All rights reserved </p>
     </div>
   )
 }
