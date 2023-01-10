@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {AiFillHome,AiOutlineMenu,AiOutlineInstagram,AiOutlineGithub} from 'react-icons/ai'
+import {AiFillHome,AiOutlineMenu,AiOutlineClose,AiOutlineInstagram,AiOutlineGithub} from 'react-icons/ai'
 import {FiSend} from 'react-icons/fi'
 import {FaFacebookF,FaLinkedinIn} from 'react-icons/fa'
 import Home from './Home'
@@ -18,7 +18,7 @@ const Navbar = () => {
     console.log(click)
     return (
         <>
-        <div className='bg-white flex justify-between items-center  relative mt-5 md:mt-0'>
+        <div className='bg-white ease-linear duration-300 flex justify-between items-center  relative mt-5 md:mt-0'>
             <div className="left">
                 <ul className=' items-center  flex space-x-5 font-semibold uppercase '>
                     <li onClick={handlePath}  className=' text-xl bg-mainblue px-6 md:px-4 py-6 md:py-4 cursor-pointer text-white rounded-l-lg '> <AiFillHome/> </li>
@@ -39,11 +39,12 @@ const Navbar = () => {
                 <button className='bg-mainblue text-white py-2 px-5 font-semibold ml-3 rounded-full  flex items-center justify-center '>Hire Me <FiSend className='ml-2 text-xl'/> </button>
 
             </div>
-            <AiOutlineMenu className='block md:hidden text-2xl m-5' onClick={() =>setToggle(!toggle)}/>
+
+           { toggle ?<AiOutlineClose className='block md:hidden text-2xl m-5 ease-linear duration-300' onClick={() =>setToggle(!toggle)}/>  : <AiOutlineMenu className='block md:hidden text-2xl m-5 ease-linear duration-300' onClick={() =>setToggle(!toggle)}/> }
 
         </div>
         {toggle && (
-                   <ul className=' items-center bg-white flex-col space-y-5 py-5  flex  font-semibold uppercase '>
+                   <ul className=' items-center ease-linear duration-300 bg-white flex-col space-y-5 py-5  flex  font-semibold uppercase '>
                    <li onClick={handleClick}  className='block hover:text-mainblue cursor-pointer'>Resume</li>
                    <li  onClick={handleClick} className='block hover:text-mainblue cursor-pointer'>Portfolio</li>
                    <li onClick={handleClick}  className='block hover:text-mainblue cursor-pointer'>Contact</li>
