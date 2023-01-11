@@ -12,7 +12,7 @@ const Sidebar = ({theme}) => {
     }}>
         <p className='font-bold text-xl text-center'>Mr OUSSAMA TAALI</p>
         <p className='font-normal text-gray-500 text-center'>Frontend developer & web designer</p>
-        <figure className='profile-img'>
+        <figure className='profile-img mt-5'>
             <img src={oussama} alt="" />
         </figure>
 <div className="stats px-2">

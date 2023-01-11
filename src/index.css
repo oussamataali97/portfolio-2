@@ -6,12 +6,13 @@
 
 
 .profile-img{
-    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px !important;
+    transition: 0.3s ease-in-out;
 }
 
 
