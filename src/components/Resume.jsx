@@ -3,7 +3,7 @@ import { FaUserGraduate } from 'react-icons/fa'
 
 const Resume = ({theme}) => {
   return (
-    <div className='resume py-10 md:py-0 bg-white flex flex-col p-2 md:p-5  md:gap-6 ease-linear duration-300'  style={{
+    <div className='resume py-10  bg-white flex flex-col p-2 md:p-5  md:gap-6 ease-linear duration-300'  style={{
       background: theme === 'dark' ? '#000' : '#fff',
       color: theme === 'dark' ? '#fff' : '#000',
   }}>
