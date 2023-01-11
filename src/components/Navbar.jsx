@@ -42,7 +42,7 @@ const Navbar = ({toggleTheme,theme}) => {
 
                     <li className='hover:text-mainblue cursor-pointer hover:text-sm '><a href="https://github.com/oussamataali97"><AiOutlineGithub/></a></li>
                 </ul>
-                <button className='bg-mainblue text-white py-2 px-5 font-semibold ml-3 rounded-full  flex items-center justify-center '>Hire Me <FiSend className='ml-2 text-xl'/> </button>
+                <a href="mailto:oussamataali1997@gmail.com"><button className='bg-mainblue text-white py-2 px-5 font-semibold ml-3 rounded-full  flex items-center justify-center '>Hire Me <FiSend className='ml-2 text-xl'/> </button></a>
                 <button className='ml-2 text-xl' onClick={toggleTheme}> { theme === 'light' ? <BsFillMoonFill/> : <BsFillSunFill/>} </button>
             </div>
 

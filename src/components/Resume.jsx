@@ -1,9 +1,13 @@
 import { MdWork } from 'react-icons/md'
 import { FaUserGraduate } from 'react-icons/fa'
+import { motion } from "framer-motion"
 
 const Resume = ({theme}) => {
   return (
-    <div className='resume py-10  bg-white flex flex-col p-2 md:p-5  md:gap-6 ease-linear duration-300'  style={{
+    <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ delay: 0.1 }} className='resume py-10  bg-white flex flex-col p-2 md:p-5  md:gap-6 ease-linear duration-300'  style={{
       background: theme === 'dark' ? '#000' : '#fff',
       color: theme === 'dark' ? '#fff' : '#000',
   }}>
@@ -19,7 +23,7 @@ const Resume = ({theme}) => {
             <li className="ml-5">ㅤ</li>
 
             <li className=' ml-5 '> <p className='font-[600]  '><span className='text-mainblue'> Gth Consult</span> - Web Developer</p>
-              <p className='font-[500] text-gray-700 '>Nov 2022 - DEC 2022</p>
+              <p className='font-[500] text-gray-700 '>November 2022 - December 2022</p>
               <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>• Build website for the company.<br />
                 •  Refactored design and implementing new features on the intranet </p>
             </li>
@@ -35,7 +39,7 @@ const Resume = ({theme}) => {
                 </p>
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> ORMVAT</span> - Web Developer INTERNSHIP</p>
-              <p className='font-[500] text-gray-700 '>Avril 2018 - May-2018</p>
+              <p className='font-[500] text-gray-700 '>April 2018 - May-2018</p>
               <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
 
               • Building website for the company<br />
@@ -48,7 +52,7 @@ Bootstrap.<br />
             </li>
 
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> ARCO PRINT</span> - GRAPHIC DESIGN INTERNSHIP</p>
-              <p className='font-[500] text-gray-700 '>Avril 2017 - May-2017</p>
+              <p className='font-[500] text-gray-700 '>April 2017 - May-2017</p>
               <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
 
               • Analysis of customer requests<br />
@@ -59,7 +63,7 @@ business cards.<br />
                 </p>
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> REANAULT NISSAN</span> - ACADEMIC INTERNSHIP </p>
-              <p className='font-[500] text-gray-700 '>MAI 2016 - May-2016</p>
+              <p className='font-[500] text-gray-700 '>May 2016 - May-2016</p>
 
             </li>
           </ul>
@@ -75,25 +79,25 @@ business cards.<br />
             <li className="ml-5">ㅤ</li>
             <li className=' ml-5 '> <p className='font-[600]  '><span className='text-mainblue'> Self-Taught  </span> - Errachidia</p>
               <p className='font-[500] text-gray-700 '>2018 - Present</p>
-              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>I was & I’m still continuously learning anything related to computer science, web/mobile developement and design.</p>
+              <p className='font-[400] text-gray-500 capitalize' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>I’m still continuously learning anything related to computer science, web/mobile developement and design.</p>
             </li>
             <li className=' ml-5 mt-8'> <p className='font-[600]  '><span className='text-mainblue'> UNIVERSITY DEGREE  </span> -  FST Errachidia</p>
               <p className='font-[500] text-gray-700 '>June 2019 - October 2020</p>
-              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>University degree at SOFTWARE ENGINEERING</p>
+              <p className='font-[400] text-gray-500 capitalize' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>University degree at SOFTWARE ENGINEERING</p>
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> Superior Technician Certificate </span> - BTS Errachidia</p>
-              <p className='font-[500] text-gray-700 '>Sep 2016 - Juin 2018</p>
-              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>Diploma at Multimedia and web master degree</p>
+              <p className='font-[500] text-gray-700 '>September 2016 - Juin 2018</p>
+              <p className='font-[400] text-gray-500 capitalize' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>Diploma at Multimedia and web master degree</p>
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> BACHELOR'S DEGREE </span> - Technical School Errachidia</p>
-              <p className='font-[500] text-gray-700 '>Sep 2012 - Juin 2015</p>
-              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>BACHELOR'S DEGREE in MECHANICAL SCIENCES AND TECHNIQUES
+              <p className='font-[500] text-gray-700 '>September 2012 - Juin 2015</p>
+              <p className='font-[400] text-gray-500 capitalize' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>BACHELOR'S DEGREE in MECHANICAL SCIENCES AND TECHNIQUES
  </p>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

@@ -1,14 +1,24 @@
+import pic1 from '../assets/uix.svg'
+import pic2 from '../assets/web.svg'
+
+import pic3 from '../assets/dev.svg'
+import pic4 from '../assets/brand.svg'
+
+import { motion } from "framer-motion"
 
 
 const Aboutme = ({ theme }) => {
     return (
-        <div className='bg-white flex flex-col   gap-6 ease-linear duration-300' style={{
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.1 }} className='bg-white flex flex-col   gap-6 ease-linear duration-300' style={{
             background: theme === 'dark' ? '#000' : '#fff',
             color: theme === 'dark' ? '#fff' : '#000',
         }}>
             <div className="mb-8 mt-7  p-5">
                 <p className='font-[700] border-b-4 w-fit border-b-mainblue mb-8 text-lg  '>About me</p>
-                <p> <span className='font-bold Py-9'>TAALI Oussama</span>  Web Developer & Web Designer , Interested in everythings in relation with programming , coding , designing and discovering new technologies etc..</p>
+                <p> <span className='font-bold Py-9'>TAALI Oussama</span>  Frontend Developer & Web Designer , Interested in everythings in relation with programming , coding , designing and discovering new technologies etc..</p>
             </div>
             <div className="bg-gray-50  py-10 px-5" style={{
                 background: theme === 'dark' ? '#1c1c1c' : '#f7f7f7',
@@ -17,40 +27,43 @@ const Aboutme = ({ theme }) => {
 
                 <p className='font-[700] border-b-4 w-fit border-b-mainblue my-10 text-lg  '>Services </p>
                 <div className="grid md:grid-cols-2 gap-y-10 gap-x-5 ">
-                    <div className="card shadow-md min-h-[200px] p-4 bg-white rounded-lg" style={{
+                    <div className="card shadow-md min-h-[200px] p-4 bg-white rounded-lg flex flex-col justify-center items-center" style={{
                         background: theme === 'dark' ? '#454545' : '#fff',
                         color: theme === 'dark' ? '#fff' : '#000',
                     }}>
-                        <h1 className='font-[600]   mb-3'>Web/mobile/Desktop Developpement</h1>
-                        <p className='text-gray-700' style={{ color: theme === 'dark' ? '#fff' : '#000' }}>We develop any kind of web applications using Nestjs, Laravel,JEE or .NET Core for
-                            back-end and React, Angular or even HTML/CSS for front-end.
-                            We also develop desktop applications with Java Swing, WPF, UWP or ElectronJs.
-                            Finally we didn't forget the mobile too so we develop to any platform using
-                            React native or Flutter</p>
+                        <img src={pic2} alt="" className='w-32 mb-2 hover:scale-110 ease-linear duration-200' />
+                        <h1 className='font-[600]   mb-3'>Web Developpement</h1>
+                        <p className='text-gray-700' style={{ color: theme === 'dark' ? '#fff' : '#000' }}>Creating, building, and maintaining websites and web applications that run online on a browser.</p>
 
                     </div>
                     <div style={{
                         background: theme === 'dark' ? '#454545' : '#fff',
                         color: theme === 'dark' ? '#fff' : '#000',
-                    }} className="card shadow-md min-h-[200px] p-4 bg-white rounded-lg">
+                    }} className="card shadow-md min-h-[200px] p-4 bg-white rounded-lg flex flex-col justify-center items-center">
+                        <img src={pic1} alt="" className='w-32 mb-2 hover:scale-110 ease-linear duration-200' />
+
                         <h1 className='font-[600]   mb-3'>UI/UX design</h1>
-                        <p className='text-gray-700' style={{ color: theme === 'dark' ? '#fff' : '#000' }}>We design for both web and mobile android or IOS using the two best softwares Adobe XD for prototyping and Adobe Illustrator for graphic elements</p>
+                        <p className='text-gray-700' style={{ color: theme === 'dark' ? '#fff' : '#000' }}>Good looking user interfaces with a good user experience</p>
                     </div>
                     <div style={{
                         background: theme === 'dark' ? '#454545' : '#fff',
                         color: theme === 'dark' ? '#fff' : '#000',
-                    }} className="card shadow-md min-h-[200px] p-4 bg-white rounded-lg">
-                        <h1 className='font-[600]   mb-3'>Professional Design
+                    }} className="card shadow-md min-h-[200px] p-4 bg-white rounded-lg flex flex-col justify-center items-center">
+                                                <img src={pic4} alt="" className='w-32 mb-2 hover:scale-110 ease-linear duration-200' />
+
+                        <h1 className='font-[600]   mb-3'>Graphic Design
                         </h1>
-                        <p className='text-gray-700' style={{ color: theme === 'dark' ? '#fff' : '#000' }}>Add to UI/UX design we do also professional design or commercial design includes flyers, business cards, logos or anything related to design as you like</p>
+                        <p className='text-gray-700' style={{ color: theme === 'dark' ? '#fff' : '#000' }}>Design professional design or commercial design includes flyers, business cards, logos or anything related to design as you like</p>
                     </div>
                     <div style={{
                         background: theme === 'dark' ? '#454545' : '#fff',
                         color: theme === 'dark' ? '#fff' : '#000',
-                    }} className="card shadow-md min-h-[200px] p-4 bg-white rounded-lg">
-                        <h1 className='font-[600]   mb-3'>Data Scrapy
+                    }} className="card shadow-md min-h-[200px] p-4 bg-white rounded-lg flex flex-col justify-center items-center">
+                        <img src={pic3} alt="" className='w-32 mb-2 hover:scale-110 ease-linear duration-200' />
+
+                        <h1 className='font-[600]   mb-3'>Professional Editing Video / Pictures
                         </h1>
-                        <p className='text-gray-700' style={{ color: theme === 'dark' ? '#fff' : '#000' }}>We can Scrape data from any website what either he needs authentification or no, we deliver data as Json file csv or excel file format or any other format that you find good</p>
+                        <p className='text-gray-700' style={{ color: theme === 'dark' ? '#fff' : '#000' }}>Professional video / picture editing with advanced skills and knowledge of the latest editing software, tools and techniques</p>
                     </div>
                 </div>
             </div>
@@ -153,7 +166,7 @@ const Aboutme = ({ theme }) => {
                 </div>
             </div>
 
-        </div>
+        </motion.div>
     )
 }
 

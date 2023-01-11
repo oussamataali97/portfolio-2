@@ -6,7 +6,7 @@ import {AiOutlineDownload} from 'react-icons/ai'
 
 const Sidebar = ({theme}) => {
   return (
-    <div className='bg-white px-1 py-6  md:p-4  rounded-md w-full ease-linear duration-300'  style={{
+    <div className='bg-white px-1 py-6  md:p-4 md:py-10  rounded-md w-full ease-linear duration-300'  style={{
       background: theme === 'dark' ? '#000' : '#fff',
       color: theme === 'dark' ? '#fff' : '#000',
     }}>
