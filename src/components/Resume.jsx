@@ -1,9 +1,12 @@
 import { MdWork } from 'react-icons/md'
 import { FaUserGraduate } from 'react-icons/fa'
 
-const Resume = () => {
+const Resume = ({theme}) => {
   return (
-    <div className='resume bg-white flex flex-col p-2 md:p-5  md:gap-6'>
+    <div className='resume py-10 md:py-0 bg-white flex flex-col p-2 md:p-5  md:gap-6 ease-linear duration-300'  style={{
+      background: theme === 'dark' ? '#000' : '#fff',
+      color: theme === 'dark' ? '#fff' : '#000',
+  }}>
 
       <p className='font-[700] border-b-4 w-fit border-b-mainblue mb-8 text-lg  '>Resume</p>
 
@@ -17,13 +20,13 @@ const Resume = () => {
 
             <li className=' ml-5 '> <p className='font-[600]  '><span className='text-mainblue'> Gth Consult</span> - Web Developer</p>
               <p className='font-[500] text-gray-700 '>Nov 2022 - DEC 2022</p>
-              <p className='font-[400] text-gray-500'>• Build website for the company.<br />
+              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>• Build website for the company.<br />
                 • Redesign admin dashboard using vuejs
                 html css</p>
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '>Build Websites And Apps </p>
               <p className='font-[500] text-gray-700 '>June 2020 - Present</p>
-              <p className='font-[400] text-gray-500'>
+              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
               • Build Clone websites<br />
               • Build Clone Apps<br />
 • Design flyers,Logos, and business cards.<br />
@@ -35,7 +38,7 @@ const Resume = () => {
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> ORMVAT</span> - Web Developer INTERNSHIP</p>
               <p className='font-[500] text-gray-700 '>Avril 2018 - May-2018</p>
-              <p className='font-[400] text-gray-500'>
+              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
 
               • Building website for the company<br />
 • Build script that convert excel data to
@@ -48,7 +51,7 @@ Bootstrap.<br />
 
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> ARCO PRINT</span> - GRAPHIC DESIGN INTERNSHIP</p>
               <p className='font-[500] text-gray-700 '>Avril 2017 - May-2017</p>
-              <p className='font-[400] text-gray-500'>
+              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
 
               • Analysis of customer requests<br />
 • Design flyers, Logos, and
@@ -75,15 +78,15 @@ business cards.<br />
 
             <li className=' ml-5 '> <p className='font-[600]  '><span className='text-mainblue'> UNIVERSITY DEGREE  </span> -  FST Errachidia</p>
               <p className='font-[500] text-gray-700 '>June 2019 - October 2020</p>
-              <p className='font-[400] text-gray-500'>University degree at SOFTWARE ENGINEERING</p>
+              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>University degree at SOFTWARE ENGINEERING</p>
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> Superior Technician Certificate </span> - BTS Errachidia</p>
               <p className='font-[500] text-gray-700 '>Sep 2016 - Juin 2018</p>
-              <p className='font-[400] text-gray-500'>Diploma at Multimedia and web master degree</p>
+              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>Diploma at Multimedia and web master degree</p>
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> BACHELOR'S DEGREE </span> - Technical School Errachidia</p>
               <p className='font-[500] text-gray-700 '>Sep 2012 - Juin 2015</p>
-              <p className='font-[400] text-gray-500'>BACHELOR'S DEGREE in MECHANICAL SCIENCES AND TECHNIQUES
+              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>BACHELOR'S DEGREE in MECHANICAL SCIENCES AND TECHNIQUES
  </p>
             </li>
           </ul>

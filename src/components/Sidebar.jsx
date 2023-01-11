@@ -4,9 +4,12 @@ import cv from '../assets/cv.pdf'
 
 import {AiOutlineDownload} from 'react-icons/ai'
 
-const Sidebar = () => {
+const Sidebar = ({theme}) => {
   return (
-    <div className='bg-white p-1 md:p-4 rounded-md w-full'>
+    <div className='bg-white px-1 py-6 md:py-0 md:p-4  rounded-md w-full ease-linear duration-300'  style={{
+      background: theme === 'dark' ? '#000' : '#fff',
+      color: theme === 'dark' ? '#fff' : '#000',
+    }}>
         <p className='font-bold text-xl text-center'>Mr OUSSAMA TAALI</p>
         <p className='font-normal text-gray-500 text-center'>Frontend developer & web designer</p>
         <figure className='profile-img'>
@@ -23,7 +26,7 @@ const Sidebar = () => {
 
     </ul>
 </div>
-<a href={cv} download="Oussama_Taali_resume" className='bg-mainblue text-white py-3 font-semibold rounded-full w-full flex items-center justify-center mt-8'>Download resume <AiOutlineDownload className='ml-2 text-xl'/> </a>
+<a href={cv} download="Oussama_Taali_resume" className='bg-mainblue text-white py-3  font-semibold rounded-full w-full flex items-center justify-center mt-8'>Download resume <AiOutlineDownload className='ml-2 text-xl'/> </a>
     </div>
   )
 }

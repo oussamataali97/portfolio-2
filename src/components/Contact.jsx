@@ -2,13 +2,16 @@ import {FiSend} from 'react-icons/fi'
 import {AiOutlineInstagram,AiOutlineGithub} from 'react-icons/ai'
 import {FaFacebookF,FaLinkedinIn} from 'react-icons/fa'
 
-const Contact = () => {
+const Contact = ({theme}) => {
   return (
-    <div className='bg-white flex flex-col md:flex-row justify-between p-5 items-start md:h-screen gap-6'>
+    <div className='bg-white flex flex-col md:flex-row justify-between p-5 items-start md:h-screen gap-6 duration-300 ease-linear'  style={{
+      background: theme === 'dark' ? '#000' : '#fff',
+      color: theme === 'dark' ? '#fff' : '#000',
+  }}>
         <div className="flex-1 w-full ">
         <p className='font-[700] border-b-4 w-fit border-b-mainblue mb-5 mt-10 md:mt-0 '>Contact Form</p>
-        <form action="" className='flex flex-col p-3  leading-[50px] '>
-            <input type="text" className='border-b-[1px] outline-0 py-3 border-b-gray-400' placeholder='Email' />
+        <form action="" className='flex flex-col p-3   '>
+            <input type="text" className='border-b-[1px] outline-0 py-3 border-b-gray-400 mb-5' placeholder='Email' />
             <textarea name="" className='border-b-[1px] outline-0 py-3 border-b-gray-400' id="" placeholder='Message ...'></textarea>
         </form>
         <button className='bg-mainblue text-white py-2 px-5 mt-5 font-semibold  rounded-full  flex items-center justify-center '>Send <FiSend className='ml-2 text-xl'/> </button>

@@ -11,19 +11,22 @@ import prod10 from './../assets/youtube.PNG'
 
 
 
-const Porfolio = () => {
+const Porfolio = ({theme}) => {
   return (
-    <div className='bg-white p-5 '>
+    <div className='bg-white p-5 ease-linear duration-300'  style={{
+        background: theme === 'dark' ? '#1a1a1a' : '#fff',
+        color: theme === 'dark' ? '#fff' : '#000',
+    }}>
                 <p className=' font-[700] border-b-4 w-fit border-b-mainblue mb-16  '>Portfolio</p>
     <div className="cards grid md:grid-cols-3 gap-5 ">
-         <a href="https://gthconsult-website.vercel.app/" target='_blank' rel="noreferrer"><div className="card shadow-sm md:h-64 hover:cursor-pointer hover:shadow-lg">
+         <a href="https://gthconsult-website.vercel.app/" target='_blank' rel="noreferrer"><div className="card shadow-sm md:h-64 hover:cursor-pointer hover:shadow-lg" >
             <img src={prod1} alt="" className='w-full object-cover shadow-md' />
             <div className="py-5">
             <p className=' ml-5 font-[700] mt-5 mb-5   '>Gth Website</p>
             <p className=' ml-5 font-[400]  '>A Landing page for the company</p>
                 </div>
         </div></a>
-        <a href="https://msi-app-player.vercel.app/" target='_blank' rel="noreferrer"><div className="card shadow-sm md:h-64 hover:cursor-pointer hover:shadow-lg">
+        <a href="https://msi-app-player.vercel.app/" target='_blank' rel="noreferrer"><div className="card shadow-sm  md:h-64 hover:cursor-pointer hover:shadow-lg">
             <img src={prod2} alt="" className='w-full object-cover shadow-md' />
             <div className="py-5">
             <p className=' ml-5 font-[700] mt-5 mb-5   '>Msi Landing Page</p>
