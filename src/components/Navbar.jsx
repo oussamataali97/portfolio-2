@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {AiFillHome,AiOutlineMenu,AiOutlineClose,AiOutlineInstagram,AiOutlineGithub} from 'react-icons/ai'
+import {AiFillHome,AiOutlineMenu,AiOutlineBehance,AiOutlineClose,AiOutlineInstagram,AiOutlineGithub} from 'react-icons/ai'
 import {FiSend} from 'react-icons/fi'
 import {BsFillMoonFill ,BsFillSunFill} from 'react-icons/bs'
 import {FaFacebookF,FaLinkedinIn} from 'react-icons/fa'
@@ -38,6 +38,7 @@ const Navbar = ({toggleTheme,theme}) => {
                     <li className='hover:text-mainblue cursor-pointer hover:text-sm '><a href="https://www.linkedin.com/in/oussama-taali-02149316a/"><FaLinkedinIn/></a></li>
 
                     <li className='hover:text-mainblue cursor-pointer hover:text-sm '><a href="https://web.facebook.com/taali.oussama/"><FaFacebookF/></a></li>
+                    <li className='hover:text-mainblue cursor-pointer hover:text-sm '><a href="https://www.behance.net/oussamataali"><AiOutlineBehance/></a></li>
 
                     <li className='hover:text-mainblue cursor-pointer hover:text-sm '><a href="https://github.com/oussamataali97"><AiOutlineGithub/></a></li>
                 </ul>
@@ -47,11 +48,11 @@ const Navbar = ({toggleTheme,theme}) => {
 
            { toggle ?
            <>
-                           <button className='ml-2 md:hidden text-xl' onClick={toggleTheme}> { theme === 'light' ? <BsFillMoonFill/> : <BsFillSunFill/>} </button>
+                           <button className='ml-2 md:hidden text-xl ' onClick={toggleTheme}> { theme === 'light' ? <BsFillMoonFill/> : <BsFillSunFill/>} </button>
 
            <AiOutlineClose className='block md:hidden text-2xl m-5 ease-linear duration-300' onClick={() =>setToggle(!toggle)}/> </> :
            <>
-                           <button className='ml-2 md:hidden text-xl' onClick={toggleTheme}> { theme === 'light' ? <BsFillMoonFill/> : <BsFillSunFill/>} </button>
+                           <button className='ml-2 md:hidden text-xl  ' onClick={toggleTheme}> { theme === 'light' ? <BsFillMoonFill/> : <BsFillSunFill/>} </button>
 
            <AiOutlineMenu className='block md:hidden text-2xl m-5 ease-linear duration-300 self-end' onClick={() =>setToggle(!toggle)}/></>
 
@@ -72,6 +73,7 @@ const Navbar = ({toggleTheme,theme}) => {
                     <li className='hover:text-mainblue cursor-pointer hover:text-sm '><a href="https://www.linkedin.com/in/oussama-taali-02149316a/"><FaLinkedinIn/></a></li>
 
                     <li className='hover:text-mainblue cursor-pointer hover:text-sm '><a href="https://web.facebook.com/taali.oussama/"><FaFacebookF/></a></li>
+                    <li className='hover:text-mainblue cursor-pointer hover:text-sm '><a href="https://www.behance.net/oussamataali"><AiOutlineBehance/></a></li>
 
                     <li className='hover:text-mainblue cursor-pointer hover:text-sm '><a href="https://github.com/oussamataali97"><AiOutlineGithub/></a></li>
 

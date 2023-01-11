@@ -21,14 +21,12 @@ const Resume = ({theme}) => {
             <li className=' ml-5 '> <p className='font-[600]  '><span className='text-mainblue'> Gth Consult</span> - Web Developer</p>
               <p className='font-[500] text-gray-700 '>Nov 2022 - DEC 2022</p>
               <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>• Build website for the company.<br />
-                • Redesign admin dashboard using vuejs
-                html css</p>
+                •  Refactored design and implementing new features on the intranet </p>
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '>Build Websites And Apps </p>
               <p className='font-[500] text-gray-700 '>June 2020 - Present</p>
               <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
               • Build Clone websites<br />
-              • Build Clone Apps<br />
 • Design flyers,Logos, and business cards.<br />
 • Create web designUI using AdobeXD<br />
 • Edit, manipulate pictures with photoshop
@@ -75,8 +73,11 @@ business cards.<br />
           <ul className='ml-7'>
             <li className="ml-5">ㅤ</li>
             <li className="ml-5">ㅤ</li>
-
-            <li className=' ml-5 '> <p className='font-[600]  '><span className='text-mainblue'> UNIVERSITY DEGREE  </span> -  FST Errachidia</p>
+            <li className=' ml-5 '> <p className='font-[600]  '><span className='text-mainblue'> Self-Taught  </span> - Errachidia</p>
+              <p className='font-[500] text-gray-700 '>2018 - Present</p>
+              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>I was & I’m still continuously learning anything related to computer science, web/mobile developement and design.</p>
+            </li>
+            <li className=' ml-5 mt-8'> <p className='font-[600]  '><span className='text-mainblue'> UNIVERSITY DEGREE  </span> -  FST Errachidia</p>
               <p className='font-[500] text-gray-700 '>June 2019 - October 2020</p>
               <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>University degree at SOFTWARE ENGINEERING</p>
             </li>
