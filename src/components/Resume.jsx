@@ -27,7 +27,7 @@ const Resume = ({theme}) => {
               <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>• Build website for the company.<br />
                 •  Refactored design and implementing new features on the intranet </p>
             </li>
-            <li className=' ml-5 mt-8 '> <p className='font-[600]  '>Build Websites And Apps </p>
+            <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'>Build Websites And Apps</span> - Self-Taught </p>
               <p className='font-[500] text-gray-700 '>June 2020 - Present</p>
               <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
               • Build Clone websites<br />

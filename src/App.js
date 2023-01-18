@@ -18,7 +18,7 @@ function App() {
     <div
 
     >
-    <div className="grid grid-cols-1 md:grid-cols-[300px,1fr] px-3 md:px-16 py-16 md:gap-11 h-screen overflow-x-hidden">
+    <div className="grid grid-cols-1 md:grid-cols-[300px,1fr] px-3 md:px-16 py-16 md:gap-11   h-screen overflow-x-hidden">
       <div className="">
         <Sidebar theme={theme}/>
       </div>
