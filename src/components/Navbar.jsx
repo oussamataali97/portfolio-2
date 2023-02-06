@@ -7,15 +7,17 @@ import Home from './Home'
 const Navbar = ({toggleTheme,theme}) => {
 
     const [toggle,setToggle] =useState(false)
-    const [click,setClick]=useState('Resume')
+    const [click,setClick]=useState('home')
+    const [path,setPath]=useState('Resume')
     const handleClick = (e) =>{
         console.log(e)
         setClick(e.target.innerHTML)
     }
 
     const handlePath =(e)=>{
-        setClick(e.target.outerHTML)
-        console.log(e)
+        setClick(e.target.id)
+        setPath(e.target.outerHTML)
+        console.log(e,'hh')
     }
     console.log(click)
     return (
@@ -26,7 +28,7 @@ const Navbar = ({toggleTheme,theme}) => {
       }}>
             <div className="left">
                 <ul className=' items-center  flex space-x-5 font-semibold uppercase '>
-                    <li onClick={handlePath}  className=' text-xl bg-mainblue px-6 md:px-4 py-6 md:py-4 cursor-pointer text-white rounded-l-lg '> <AiFillHome/> </li>
+                    <li onClick={handlePath} id="home"  className=' text-xl bg-mainblue hover:bg-blue-400 px-6 md:px-4 py-6 md:py-4 cursor-pointer text-white rounded-l-lg '><AiFillHome/> </li>
                     <li onClick={handleClick}  className='hidden md:block hover:text-mainblue cursor-pointer'>Resume</li>
                     <li  onClick={handleClick} className='hidden md:block hover:text-mainblue cursor-pointer'>Portfolio</li>
                     <li onClick={handleClick}  className='hidden md:block hover:text-mainblue cursor-pointer'>Contact</li>
@@ -81,7 +83,7 @@ const Navbar = ({toggleTheme,theme}) => {
                 </ul>
                </ul>
              )}
-        <Home click={click} theme={theme}/>
+        <Home click={click} theme={theme} path={path}/>
         </>
     )
 }
