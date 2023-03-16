@@ -8,6 +8,8 @@ import prod7 from './../assets/git.PNG'
 import prod8 from './../assets/fylo.PNG'
 import prod9 from './../assets/cock.PNG'
 import spot from './../assets/spot.png'
+import multi from './../assets/multi.jpg'
+import hurley from './../assets/hurley.png'
 import prod10 from './../assets/youtube.PNG'
 import { motion } from "framer-motion"
 
@@ -24,6 +26,24 @@ const Porfolio = ({theme}) => {
     }}>
                 <p className=' font-[700] border-b-4 w-fit border-b-mainblue mb-16  '>Portfolio</p>
     <div className="cards grid md:grid-cols-3 gap-5">
+    <a href="https://multi-step-form-react-redux-toolkit.vercel.app/" target='_blank' rel="noreferrer"><div className="hover:scale-105 ease-linear duration-200 card shadow-sm md:h-64 hover:cursor-pointer hover:shadow-lg" >
+            <img src={multi} alt="" className='w-full object-cover shadow-md' />
+            <div className="py-5">
+            <p className=' ml-5 font-[700] mt-5 mb-1   '>Multi Step Form</p>
+            <p className=' ml-5 font-[400]  '>Multi step form (Tailwind, Redux toolkit, React js)</p>
+
+            </div>
+        </div></a>
+
+    <a href="https://store-omega-smoky.vercel.app/" target='_blank' rel="noreferrer"><div className="hover:scale-105 ease-linear duration-200 card shadow-sm md:h-64 hover:cursor-pointer hover:shadow-lg" >
+            <img src={hurley} alt="" className='w-full object-cover shadow-md' />
+            <div className="py-5">
+            <p className=' ml-5 font-[700] mt-5 mb-1   '>E-commerce Store</p>
+            <p className=' ml-5 font-[400]  '>Store using Tailwind, Redux toolkit, React js</p>
+
+            </div>
+        </div></a>
+
     <a href="https://spotify-clone-two-sandy.vercel.app/" target='_blank' rel="noreferrer"><div className="hover:scale-105 ease-linear duration-200 card shadow-sm md:h-64 hover:cursor-pointer hover:shadow-lg" >
             <img src={spot} alt="" className='w-full object-cover shadow-md' />
             <div className="py-5">
