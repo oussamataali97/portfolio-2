@@ -84,11 +84,11 @@ const Aboutme = ({ theme }) => {
                     </div>
                     <div className="mb-1 text-base  dark:text-white">React js</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
-                        <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
+                        <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '85%' }}></div>
                     </div>
                     <div className="mb-1 text-base  dark:text-white">Java</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
-                        <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '50%' }}></div>
+                        <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '40%' }}></div>
                     </div>
                     <div className="mb-1 text-base  dark:text-white">PHP</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
@@ -104,9 +104,17 @@ const Aboutme = ({ theme }) => {
                     </div>
                     <div className="mb-1 text-base  dark:text-white">Materialize , Bulma , Material UI</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
-                        <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
+                        <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '60%' }}></div>
+                    </div>
+                    <div className="mb-1 text-base  dark:text-white">ReduxToolkit</div>
+                    <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
+                        <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '80%' }}></div>
                     </div>
                     <div className="mb-1 text-base  dark:text-white">Styled components</div>
+                    <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
+                        <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
+                    </div>
+                    <div className="mb-1 text-base  dark:text-white">Next Js</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
                     </div>

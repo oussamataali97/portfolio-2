@@ -23,15 +23,10 @@ const home ='<path d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-1
     <Contact theme={theme}/>
 )}
 
-{ click === home && (
+{ (click === 'home' || path === home) && (
     <Aboutme theme={theme}/>
 )}
-{ click === 'home'  && (
-    <Aboutme theme={theme}/>
-)}
-{ path === home  && (
-    <Aboutme theme={theme}/>
-)}
+
 
 
 

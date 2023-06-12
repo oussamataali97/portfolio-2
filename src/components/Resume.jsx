@@ -2,15 +2,15 @@ import { MdWork } from 'react-icons/md'
 import { FaUserGraduate } from 'react-icons/fa'
 import { motion } from "framer-motion"
 
-const Resume = ({theme}) => {
+const Resume = ({ theme }) => {
   return (
     <motion.div
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    transition={{ delay: 0.1 }} className='resume py-10  bg-white flex flex-col p-2 md:p-5  md:gap-6 ease-linear duration-300'  style={{
-      background: theme === 'dark' ? '#000' : '#fff',
-      color: theme === 'dark' ? '#fff' : '#000',
-  }}>
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.1 }} className='resume py-10  bg-white flex flex-col p-2 md:p-5  md:gap-6 ease-linear duration-300' style={{
+        background: theme === 'dark' ? '#000' : '#fff',
+        color: theme === 'dark' ? '#fff' : '#000',
+      }}>
 
       <p className='font-[700] border-b-4 w-fit border-b-mainblue mb-8 text-lg  '>Resume</p>
 
@@ -22,45 +22,36 @@ const Resume = ({theme}) => {
             <li className="ml-5">ㅤ</li>
             <li className="ml-5">ㅤ</li>
 
+            <li className=' ml-5 mb-8 '> <p className='font-[600]  '><span className='text-mainblue'>Self-Taught Projects</span>  </p>
+              <p className='font-[500] text-gray-700 '>June 2020 - Present</p>
+              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
+                • Build Clone websites<br />
+                • Design flyers,Logos, and business cards.<br />
+                • Create web designUI using AdobeXD<br />
+                • Edit, manipulate pictures with photoshop
+
+
+              </p>
+            </li>
+
             <li className=' ml-5 '> <p className='font-[600]  '><span className='text-mainblue'> Gth Consult</span> - Web Developer</p>
               <p className='font-[500] text-gray-700 '>November 2022 - December 2022</p>
               <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>• Build website for the company.<br />
                 •  Refactored design and implementing new features on the intranet </p>
             </li>
-            <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'>Build Websites And Apps</span> - Self-Taught </p>
-              <p className='font-[500] text-gray-700 '>June 2020 - Present</p>
-              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
-              • Build Clone websites<br />
-• Design flyers,Logos, and business cards.<br />
-• Create web designUI using AdobeXD<br />
-• Edit, manipulate pictures with photoshop
 
 
-                </p>
-            </li>
-            <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> ORMVAT</span> - Web Developer INTERNSHIP</p>
-              <p className='font-[500] text-gray-700 '>April 2018 - May-2018</p>
-              <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
-
-              • Building website for the company<br />
-• Build script that convert excel data to
-Charts.<br />
-• Technologie:PHP,Javascript,Html,Css,
-Bootstrap.<br />
-• Project management: Gant Project.
-                </p>
-            </li>
 
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> ARCO PRINT</span> - GRAPHIC DESIGN INTERNSHIP</p>
               <p className='font-[500] text-gray-700 '>April 2017 - May-2017</p>
               <p className='font-[400] text-gray-500' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>
 
-              • Analysis of customer requests<br />
-• Design flyers, Logos, and
-business cards.<br />
-• Create mockup.<br />
-• Creating graphic elements (photos, logos).
-                </p>
+                • Analysis of customer requests<br />
+                • Design flyers, Logos, and
+                business cards.<br />
+                • Create mockup.<br />
+                • Creating graphic elements (photos, logos).
+              </p>
             </li>
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> REANAULT NISSAN</span> - ACADEMIC INTERNSHIP </p>
               <p className='font-[500] text-gray-700 '>May 2016 - May-2016</p>
@@ -92,7 +83,7 @@ business cards.<br />
             <li className=' ml-5 mt-8 '> <p className='font-[600]  '><span className='text-mainblue'> BACHELOR'S DEGREE </span> - Technical School Errachidia</p>
               <p className='font-[500] text-gray-700 '>September 2012 - Juin 2015</p>
               <p className='font-[400] text-gray-500 capitalize' style={{ color: theme === 'dark' ? '#d1d1d1' : '#000' }}>BACHELOR'S DEGREE in MECHANICAL SCIENCES AND TECHNIQUES
- </p>
+              </p>
             </li>
           </ul>
         </div>

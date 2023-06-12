@@ -35,7 +35,7 @@ const Contact = ({theme}) => {
             <li className=" font-[600] ">Address : <span className='font-normal text-gray-500'>ORMVAT Immeuble El Biada n2</span></li>
         <li className=" font-[600] ">Job : <span className='font-normal text-gray-500'>Frontend Developer / Web Designer</span></li>
         <li className=" font-[600] ">Phone Number : <span className='font-normal text-gray-500'>+212 653515092</span></li>
-        <li className=" font-[600] ">Email : <span className='font-normal text-gray-500'>oussamataali@gmail.com</span></li>
+        <li className=" font-[600] ">Email : <span className='font-normal text-gray-500'>oussamataali1997@gmail.com</span></li>
             </ul>
             <ul className=' items-center  space-x-4 flex text-lg mt-5'>
             <li className='hover:text-mainblue cursor-pointer hover:text-xl '><a href="https://www.instagram.com/taali.oussama/"><AiOutlineInstagram/></a></li>

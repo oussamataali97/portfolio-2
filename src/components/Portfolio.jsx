@@ -13,6 +13,7 @@ import hurley from './../assets/hurley.png'
 import prod10 from './../assets/youtube.PNG'
 import vete from './../assets/vete.jpg'
 import startup from './../assets/startup.jpg'
+import store21 from './../assets/store21.PNG'
 
 import { motion } from "framer-motion"
 
@@ -29,6 +30,17 @@ const Porfolio = ({theme}) => {
     }}>
                 <p className=' font-[700] border-b-4 w-fit border-b-mainblue mb-16  '>Portfolio</p>
     <div className="cards grid md:grid-cols-3 gap-5">
+
+    <a href="https://store21-rtk-query.vercel.app/" target='_blank' rel="noreferrer"><div className=" hover:scale-105 ease-linear duration-200 card shadow-sm md:h-auto hover:cursor-pointer hover:shadow-lg" >
+            <img src={store21} alt="" className='w-full max-h-[150px] object-cover shadow-md' />
+            <div className="py-5">
+            <p className=' ml-5 font-[700] mt-5 mb-1   '>Store21</p>
+            <p className=' ml-5 font-[400]  '>Ecommerce website using (Tailwind,React,Dummyjson<br/>,reduxToolkit)</p>
+
+            </div>
+        </div></a>
+
+
            <a href="https://startup-agency-nextjs-five.vercel.app/" target='_blank' rel="noreferrer"><div className="hover:scale-105 ease-linear duration-200 card shadow-sm md:h-auto hover:cursor-pointer hover:shadow-lg" >
             <img src={startup} alt="" className='w-full max-h-[150px] object-cover shadow-md' />
             <div className="py-5">
