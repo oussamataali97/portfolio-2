@@ -70,59 +70,59 @@ const Aboutme = ({ theme }) => {
             <div className="language-skils p-5 grid md:grid-cols-2 gap-8">
                 <div className="">
                     <p className='font-[700] border-b-4 w-fit border-b-blue-400 mb-8 text-lg  '>Languages-frameworks-libraries</p>
-                    <div className="mb-1 text-base  dark:text-white">HTML</div>
+                    <div className="mb-1 text-base">HTML</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '90%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">CSS</div>
+                    <div className="mb-1 text-base">CSS</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '90%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Javascript</div>
+                    <div className="mb-1 text-base">Javascript</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">React js</div>
+                    <div className="mb-1 text-base">React js</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '85%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Java</div>
+                    <div className="mb-1 text-base">Java</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '40%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">PHP</div>
+                    <div className="mb-1 text-base">PHP</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '45%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">TailwindCSS</div>
+                    <div className="mb-1 text-base">TailwindCSS</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '90%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Bootstrap</div>
+                    <div className="mb-1 text-base">Bootstrap</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '80%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Materialize , Bulma , Material UI</div>
+                    <div className="mb-1 text-base">Materialize , Bulma , Material UI</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '60%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">ReduxToolkit</div>
+                    <div className="mb-1 text-base">ReduxToolkit</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '80%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Styled components</div>
+                    <div className="mb-1 text-base">Styled components</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Next Js</div>
+                    <div className="mb-1 text-base">Next Js</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Sass</div>
+                    <div className="mb-1 text-base">Sass</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '85%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Axios</div>
+                    <div className="mb-1 text-base">Axios</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
                     </div>
@@ -130,44 +130,44 @@ const Aboutme = ({ theme }) => {
                 <div className="skils">
                     <p className='font-[700] border-b-4 w-fit border-b-blue-400 mb-8 text-lg  '>Language Skills</p>
 
-                    <div className="mb-1 text-base  dark:text-white">Berbere</div>
+                    <div className="mb-1 text-base">Berbere</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '100%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Arabic</div>
+                    <div className="mb-1 text-base">Arabic</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '100%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">French</div>
+                    <div className="mb-1 text-base">French</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '79%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">English</div>
+                    <div className="mb-1 text-base">English</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '60%' }}></div>
                     </div>
                     <p className='font-[700] border-b-4 w-fit border-b-blue-400 mb-8 text-lg mt-8 '>Softwares</p>
-                    <div className="mb-1 text-base  dark:text-white">Adobe XD</div>
+                    <div className="mb-1 text-base">Adobe XD</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Adobe After Effect</div>
+                    <div className="mb-1 text-base">Adobe After Effect</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Adobe Premiere Pro</div>
+                    <div className="mb-1 text-base">Adobe Premiere Pro</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '77%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Adobe Photoshop</div>
+                    <div className="mb-1 text-base">Adobe Photoshop</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '100%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Adobe Illustrator</div>
+                    <div className="mb-1 text-base">Adobe Illustrator</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '70%' }}></div>
                     </div>
-                    <div className="mb-1 text-base  dark:text-white">Ms Word, Excel, PowerPoint</div>
+                    <div className="mb-1 text-base">Ms Word, Excel, PowerPoint</div>
                     <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
                         <div className="bg-mainblue h-1 rounded-full dark:bg-blue-500" style={{ width: '80%' }}></div>
                     </div>
